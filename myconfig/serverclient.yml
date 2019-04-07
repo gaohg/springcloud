@@ -2,7 +2,7 @@ server:
   port: 8086
 spring:
   application:
-    name: eurekaclient
+    name: serverclient
   rabbitmq:
     host: localhost
     port: 5672
