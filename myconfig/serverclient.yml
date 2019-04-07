@@ -2,9 +2,17 @@ server:
   port: 8086
 spring:
   application:
-    name: serverclient
+    name: eurekaclient
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  sleuth:
+    sampler:
+      percentage: 1.0
 management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info
+        include: refresh,health,info,bus-refresh
