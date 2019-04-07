@@ -1,11 +1,9 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring_cloud
     username: root
     password: ttxs
-   
-
   jpa:
     hibernate:
     ddl-auto: create  # 第一次简表create  后面用update
