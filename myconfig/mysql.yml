@@ -3,5 +3,5 @@ spring:
     url:  jdbc:mysql://172.31.0.89:3306/spring_cloud?useUnicode=true&characterEncoding=utf8
     username: root
     password: ttxs
-    driver-class-name:  com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     
