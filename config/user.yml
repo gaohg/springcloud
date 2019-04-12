@@ -1,3 +1,4 @@
+flag: 12312
 server:
   port: 8082
 spring:
